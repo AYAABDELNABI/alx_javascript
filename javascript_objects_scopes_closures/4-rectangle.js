@@ -4,7 +4,7 @@ if (w && h > 0)
     this.height = h   
     return this.width, this.width
 }
-}
+
 print()
 {
     for (let i=0; i<this.height; i++)
@@ -23,7 +23,7 @@ double()
 this.height = this.height * 2
 this.width = this.width * 2
 }
-};
+;
 
 module.exports = Rectangle;
 

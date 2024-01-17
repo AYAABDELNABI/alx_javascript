@@ -1,20 +1,14 @@
-const myObject = 
-{
+
+const myObject = {
     type: 'object',
-    value: 12,
-}
+    value: 12
+  };
+  console.log(myObject);
 
-console.log(myObject)
-
-myObject.incr = function ()
-{
-    myObject.value = myObject.value + 1
-    return myObject.value 
-}
-
-myObject.incr();
-console.log(myObject);
-myObject.incr();
-console.log(myObject);
-myObject.incr();
-console.log(myObject);
+  
+  myObject.incr();
+  console.log(myObject);
+  myObject.incr();
+  console.log(myObject);
+  myObject.incr();
+  console.log(myObject);
