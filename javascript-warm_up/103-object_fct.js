@@ -5,9 +5,9 @@ const myObject = {
 };
 console.log(myObject);
 
-function incr (){
- value++;
- return  value+1;
+function incr (_obj){
+_obj. value++;
+ return _obj. value;
 
 }
 
