@@ -7,7 +7,7 @@ console.log(myObject);
 
 function incr (){
  value++;
- return  value;
+ return  value++;
 
 }
 
