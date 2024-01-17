@@ -1,24 +1,26 @@
-
 const myObject = {
   type: 'object',
-  value: 12
+  value: 12,
+  incr: function() {
+    this.value++;
+  }
 };
 
-console.log(myObject);
-
-function incr(obj) {
+function incrValue(obj) {
   obj.value++;
-  return obj.value;
 }
 
-incr(myObject);
 console.log(myObject);
 
-incr(myObject);
+incrValue(myObject);
 console.log(myObject);
 
-incr(myObject);
+incrValue(myObject);
 console.log(myObject);
+
+incrValue(myObject);
+console.log(myObject);
+
 
 
 
