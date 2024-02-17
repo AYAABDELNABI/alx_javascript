@@ -19,7 +19,7 @@ console.log(myObject);
 
 myObject.incr();
 console.log(myObject);
-// Output: { type: 'object', value: 15 }
+// Output: { type: 'object', value: 15 } 
 
 
 
